@@ -1,6 +1,44 @@
 package com.ytzys.algorithm.leedcode;
 
+import org.junit.Test;
+
 public class ReverseInt7 {
+
+    /**
+     * 相对于 reverse 方法，使用了 ListNode 链表存储各位数字
+     * 以空间换时间，节省了重复的除法和取模运算
+     */
+    @Test
+    public void test() {
+        System.out.println(reverse2(-2147483641));
+    }
+
+    private int reverse3(int x) {
+        int result = 0;
+        int border1 = Integer.MAX_VALUE / 10;
+        int border2 = Integer.MIN_VALUE / 10;
+        while (x != 0) {
+            if (result > border1 || result < border2) {
+                return 0;
+            }
+            result = result * 10 + x % 10;
+            x /= 10;
+        }
+        return result;
+    }
+
+    private int reverse2(int x) {
+        int result = 0;
+        int border = Integer.MAX_VALUE / 10;
+        while (x != 0) {
+            if (x > 0 ? result > border : -result > border) {
+                return 0;
+            }
+            result = result * 10 + x % 10;
+            x /= 10;
+        }
+        return result;
+    }
 
     private int reverse1(int x) {
         if (x == Integer.MIN_VALUE) {
