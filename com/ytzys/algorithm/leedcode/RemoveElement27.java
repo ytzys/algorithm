@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * Created by ZhangYisu on 2019/1/19.
  */
-public class RemoveElement {
+public class RemoveElement27 {
     @Test
     public void test() {
         int[] arr = new int[]{2, 2, 1};
