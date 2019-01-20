@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * Created by ZhangYisu on 2019/1/20.
  */
-public class SearchInsertPosition {
+public class SearchInsertPosition35 {
     @Test
     public void test() {
         System.out.println(searchInsert(new int[]{1, 2, 3, 5}, 6));
