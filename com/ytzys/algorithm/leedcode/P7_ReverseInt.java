@@ -2,7 +2,7 @@ package com.ytzys.algorithm.leedcode;
 
 import org.junit.Test;
 
-public class ReverseInt7 {
+public class P7_ReverseInt {
 
     /**
      * 相对于 reverse 方法，使用了 ListNode 链表存储各位数字

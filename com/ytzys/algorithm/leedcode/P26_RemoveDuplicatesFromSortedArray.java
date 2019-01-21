@@ -2,14 +2,14 @@ package com.ytzys.algorithm.leedcode;
 
 import org.junit.Test;
 
-public class RemoveDuplicatesFromSortedArray26 {
+public class P26_RemoveDuplicatesFromSortedArray {
     @Test
     public void test() {
-        int[] arr = new int[]{0, 0, 0, 1, 1, 1, 3, 4, 5};
+        int[] arr = new int[]{1, 1, 2};
         int tmp = removeDuplicates(arr);
         System.out.println(tmp);
-        for (int i = 0; i <= tmp; i++) {
-
+        for (int i = 0; i < tmp; i++) {
+            System.out.println(arr[i]);
         }
     }
 
@@ -17,17 +17,17 @@ public class RemoveDuplicatesFromSortedArray26 {
         if (nums.length == 0) return 0;
         if (nums.length == 1) return 1;
         int curNum = nums[0];
-        int curCerticatingIndex = 1;
+        int curCerticatingIndex = 0;
         int index = 1;
         while (index < nums.length) {
             int tmp = nums[index];
             if (tmp != curNum) {
-                nums[curCerticatingIndex] = tmp;
                 curCerticatingIndex++;
+                nums[curCerticatingIndex] = tmp;
                 curNum = tmp;
             }
             index++;
         }
-        return curCerticatingIndex;
+        return curCerticatingIndex + 1;
     }
 }

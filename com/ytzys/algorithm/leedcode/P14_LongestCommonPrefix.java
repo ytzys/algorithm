@@ -2,7 +2,7 @@ package com.ytzys.algorithm.leedcode;
 
 import org.junit.Test;
 
-public class LongestCommonPrefix14 {
+public class P14_LongestCommonPrefix {
 
     @Test
     public void test() {

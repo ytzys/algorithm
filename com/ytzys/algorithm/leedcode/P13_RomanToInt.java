@@ -2,7 +2,7 @@ package com.ytzys.algorithm.leedcode;
 
 import org.junit.Test;
 
-public class RomanToInt13 {
+public class P13_RomanToInt {
     @Test
     public void test() {
         System.out.println(romanToInt("MCMXCIV"));

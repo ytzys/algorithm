@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * Created by ZhangYisu on 2019/1/12.
  */
-public class AddTwoNumbers2 {
+public class P2AddTwoNumbers {
     @Test
     public void test() {
         ListNode l1 = new ListNode(5);

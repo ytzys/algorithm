@@ -2,7 +2,7 @@ package com.ytzys.algorithm.leedcode;
 
 import org.junit.Test;
 
-public class IsPalindrome9 {
+public class P9_IsPalindrome {
     @Test
     public void test() {
         System.out.println(isPalindrome(123));
