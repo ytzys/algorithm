@@ -2,7 +2,7 @@ package com.ytzys.algorithm.leedcode;
 
 import org.junit.Test;
 
-public class P53_MaximumSubarray {
+public class P0053_MaximumSubarray {
     @Test
     public void test1() {
         int[] arr = {-2, 1, -3, 4, -1, 2, 1, -5, 4};

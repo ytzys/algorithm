@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * Created by ZhangYisu on 2019/1/21.
  */
-public class P58_LengthOfLastWord {
+public class P0058_LengthOfLastWord {
     @Test
     public void test() {
         System.out.println(lengthOfLastWord1("hello worlxd "));

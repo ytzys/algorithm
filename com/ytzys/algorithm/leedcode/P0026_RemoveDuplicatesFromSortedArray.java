@@ -2,7 +2,7 @@ package com.ytzys.algorithm.leedcode;
 
 import org.junit.Test;
 
-public class P26_RemoveDuplicatesFromSortedArray {
+public class P0026_RemoveDuplicatesFromSortedArray {
     @Test
     public void test() {
         int[] arr = new int[]{1, 1, 2};

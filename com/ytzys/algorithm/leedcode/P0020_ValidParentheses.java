@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import java.util.Stack;
 
-public class P20_ValidParentheses {
+public class P0020_ValidParentheses {
     @Test
     public void test() {
         System.out.println(isValid("()["));

@@ -24,6 +24,10 @@ hs_err_pid*
 
 cn/
 
+.idea
+
+algorithm.iml
+
 #algorithm/
 
 com/ytzys/myapplication1/

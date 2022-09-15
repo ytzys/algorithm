@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * Created by ZhangYisu on 2019/1/20.
  */
-public class P38_CountAndSay {
+public class P0038_CountAndSay {
     @Test
     public void test() {
         System.out.println(countAndSay(3));

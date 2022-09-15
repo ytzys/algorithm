@@ -2,7 +2,7 @@ package com.ytzys.algorithm.leedcode;
 
 import org.junit.Test;
 
-public class P21_MergeTwoSortedLists {
+public class P0021_MergeTwoSortedLists {
     @Test
     public void test() {
         ListNode l1 = new ListNode(1);

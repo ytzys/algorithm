@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * Created by ZhangYisu on 2019/1/19.
  */
-public class P28_StrStr {
+public class P0028_StrStr {
     @Test
     public void test() {
         System.out.println(strStr("134423", "44"));
