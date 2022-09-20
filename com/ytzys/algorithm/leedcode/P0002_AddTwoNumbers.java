@@ -1,13 +1,12 @@
 package com.ytzys.algorithm.leedcode;
 
-import android.support.annotation.Nullable;
 
 import org.junit.Test;
 
 /**
  * Created by ZhangYisu on 2019/1/12.
  */
-public class P2_AddTwoNumbers {
+public class P0002_AddTwoNumbers {
     @Test
     public void test() {
         ListNode l1 = new ListNode(5);
@@ -82,7 +81,6 @@ public class P2_AddTwoNumbers {
 
     //***********think too simply**********//
 
-    @Nullable
     private ListNode getListNode(long sum) {
         if (sum == 0) {
             ListNode tmp = new ListNode((int) sum);

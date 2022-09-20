@@ -24,6 +24,8 @@ hs_err_pid*
 
 cn/
 
+out/
+
 .idea
 
 algorithm.iml
